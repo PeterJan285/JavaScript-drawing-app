@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+#toolbar {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 10vw;
+    background-color: darkgreen;
+    gap: 0.3rem;
+}
+
+#toolbar * {
+    margin-bottom: 6px;
+}
+
+#toolbar input {
+    width: 95%;
+}
+
+#toolbar button {
+    background-color: orange;
+    border-radius: 4px;
+    border: none;
+    color:black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#toolbar button:hover {
+    background-color: darkorange;
+}
